@@ -314,7 +314,7 @@ def Oup(op):
                       if cmd== ".runtime" or cmd== rname + "runtime":
                          high = time.time() - starting
                          voltage =  "Selfbot has been running for:\n"+runtime(high)
-                         client.sendMessage(msg.to,f"{voltage}")
+                         client.sendMessage(msg.to,"{voltage}")
 
                       if cmd== ".reboot":
                           client.sendMessage(msg.to,"restarting..")
